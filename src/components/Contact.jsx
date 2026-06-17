@@ -1,7 +1,41 @@
+import { useState } from "react";
+
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const whatsappMessage = `
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+
+Message:
+${formData.message}
+`;
+
+    const url = `https://wa.me/918287316347?text=${encodeURIComponent(
+      whatsappMessage
+    )}`;
+
+    window.open(url, "_blank");
+  };
+
   return (
     <section className="py-24 bg-slate-100">
-
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center mb-16">
@@ -46,7 +80,7 @@ function Contact() {
             <div className="flex gap-4 mt-10">
 
               <a
-                href="https://wa.me/918287316347?text=Hello%20JHA%20Services,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+                href="https://wa.me/918287316347"
                 target="_blank"
                 rel="noreferrer"
                 className="bg-cyan-500 text-white px-6 py-3 rounded-xl"
@@ -55,7 +89,7 @@ function Contact() {
               </a>
 
               <a
-                href="mailto:jhavk1412091@gmail.com?subject=Service Inquiry"
+                href="mailto:jhavk1412091@gmail.com"
                 className="border border-black px-6 py-3 rounded-xl"
               >
                 Email
@@ -66,35 +100,54 @@ function Contact() {
 
           <div className="bg-white p-8 rounded-3xl shadow-lg">
 
-            <form className="space-y-5">
+            <form
+              onSubmit={handleSubmit}
+              className="space-y-5"
+            >
 
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
+                value={formData.name}
+                onChange={handleChange}
                 className="w-full border rounded-xl p-4"
+                required
               />
 
               <input
                 type="email"
+                name="email"
                 placeholder="Your Email"
+                value={formData.email}
+                onChange={handleChange}
                 className="w-full border rounded-xl p-4"
+                required
               />
 
               <input
                 type="text"
+                name="phone"
                 placeholder="Phone Number"
+                value={formData.phone}
+                onChange={handleChange}
                 className="w-full border rounded-xl p-4"
+                required
               />
 
               <textarea
                 rows="5"
+                name="message"
                 placeholder="Your Message"
+                value={formData.message}
+                onChange={handleChange}
                 className="w-full border rounded-xl p-4"
-              ></textarea>
+                required
+              />
 
               <button
                 type="submit"
-                className="w-full bg-cyan-500 text-white py-4 rounded-xl"
+                className="w-full bg-cyan-500 text-white py-4 rounded-xl hover:bg-cyan-600 transition"
               >
                 Send Inquiry
               </button>
@@ -106,7 +159,6 @@ function Contact() {
         </div>
 
       </div>
-
     </section>
   );
 }
