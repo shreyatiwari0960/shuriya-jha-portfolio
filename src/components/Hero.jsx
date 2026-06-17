@@ -19,9 +19,11 @@ function Hero() {
 <div className="relative z-10 flex items-center justify-center h-full pt-24">
         <div className="text-center px-6 max-w-5xl">
 
-          <h1 className="text-white text-5xl md:text-7xl font-bold leading-tight mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
             Trusted Tax, Travel &
-            <span className="text-cyan-400"> Documentation Services</span>
+            <span className="block text-cyan-400">
+              Business Solutions
+            </span>
           </h1>
 
           <p className="text-gray-200 text-lg md:text-2xl mb-10">

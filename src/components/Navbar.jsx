@@ -14,12 +14,19 @@ function Navbar() {
 
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-5">
 
-        <Link
-          to="/"
-          className="text-2xl font-bold text-white tracking-wide"
-        >
-          JHA SERVICES
-        </Link>
+          <Link
+            to="/"
+            className="hidden md:block text-2xl font-bold text-white tracking-wide"
+          >
+            SHURIYA ACCOUNTS & TRAVEL SERVICES
+          </Link>
+
+          <Link
+            to="/"
+            className="md:hidden text-lg font-bold text-white tracking-wide"
+          >
+            SHURIYA SERVICES
+          </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 font-medium">

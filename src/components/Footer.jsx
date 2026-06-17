@@ -12,7 +12,7 @@ function Footer() {
           <div>
 
             <h2 className="text-3xl font-bold mb-4">
-              JHA SERVICES
+              SHURIYA ACCOUNTS & TRAVEL SERVICES
             </h2>
 
             <p className="text-gray-400 leading-7">
@@ -91,8 +91,7 @@ function Footer() {
 
         <div className="text-center text-gray-500">
 
-          © 2026 JHA Services. All Rights Reserved.
-
+          © 2026 Shuriya Accounts & Travel Services. All Rights Reserved. 
         </div>
 
       </div>
