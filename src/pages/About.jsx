@@ -5,11 +5,10 @@ function About() {
       <div className="max-w-6xl mx-auto px-6">
 
         <h1 className="text-5xl font-bold text-center mb-6">
-          About JHA Services
-        </h1>
+          About SHURIYA ACCOUNTS & TRAVEL SERVICES        </h1>
 
         <p className="text-center text-gray-600 max-w-3xl mx-auto mb-16">
-          JHA Services is a trusted service provider offering tax,
+          SHURIYA ACCOUNTS & TRAVEL SERVICES is a trusted service provider offering tax,
           travel and documentation solutions. We assist individuals,
           families and businesses with fast, reliable and professional
           services.

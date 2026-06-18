@@ -20,7 +20,7 @@ function Hero() {
         <div className="text-center px-6 max-w-5xl">
 
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
-            Trusted Tax, Travel &
+            Trusted Accounts, Tax & Travel Services
             <span className="block text-cyan-400">
               Business Solutions
             </span>
