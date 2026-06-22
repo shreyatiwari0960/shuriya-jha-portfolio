@@ -9,7 +9,7 @@ function WhyChooseUs() {
         </h2>
 
         <p className="text-center text-gray-600 mb-16">
-          Trusted tax, travel and documentation services with professional support.
+          Trusted tax, travel and financial services with professional support.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">

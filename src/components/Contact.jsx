@@ -44,7 +44,7 @@ ${formData.message}
           </h2>
 
           <p className="text-gray-600">
-            Get in touch for tax, travel and documentation services.
+            Get in touch for tax, travel and financial services.
           </p>
         </div>
 

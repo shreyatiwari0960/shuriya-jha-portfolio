@@ -9,7 +9,7 @@ function ServicesPage() {
         </h1>
 
         <p className="text-xl text-gray-300">
-          Complete Tax, Travel & Documentation Solutions
+          Your Trusted Partner for Tax & Travel Services        
         </p>
       </div>
 

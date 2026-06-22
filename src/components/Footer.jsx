@@ -16,9 +16,9 @@ function Footer() {
             </h2>
 
             <p className="text-gray-400 leading-7">
-              Professional solutions for Tax Filing,
-              GST Registration, Passport, Visa,
-              Travel Booking and Documentation Services.
+            Professional solutions for Tax Filing,
+            GST Registration, TDS/TCS Services,
+            Passport, Visa and Travel Booking.
             </p>
 
           </div>

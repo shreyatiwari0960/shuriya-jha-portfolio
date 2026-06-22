@@ -40,11 +40,7 @@ const services = [
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
     description: "Customized travel packages and tours.",
   },
-  {
-    title: "Online Documentation",
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db",
-    description: "Government forms and documentation support.",
-  },
+
 ];
 
 export default services;

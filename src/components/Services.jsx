@@ -10,9 +10,9 @@ function Services() {
         <h2 className="text-5xl font-bold text-center mb-4">
           Our Services
         </h2>
-
+        
         <p className="text-center text-gray-600 mb-16">
-          Professional tax, travel and documentation solutions.
+          ITR Filing, GST Registration, Passport, Visa, Travel & Booking Services.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

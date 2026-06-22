@@ -3,7 +3,6 @@ import g2 from "../assets/gallery/g2.png";
 import g3 from "../assets/gallery/g3.png";
 import g4 from "../assets/gallery/g4.png";
 import g5 from "../assets/gallery/g5.png";
-import g6 from "../assets/gallery/g6.png";
 
 function Gallery() {
   const images = [
@@ -27,10 +26,7 @@ function Gallery() {
       img: g5,
       title: "Tour & Travel",
     },
-    {
-      img: g6,
-      title: "Online Documentation",
-    },
+
   ];
 
   return (
