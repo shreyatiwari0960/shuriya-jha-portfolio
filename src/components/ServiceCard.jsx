@@ -6,7 +6,8 @@ function ServiceCard({ service }) {
         <img
           src={service.image}
           alt={service.title}
-          className="h-56 w-full object-cover hover:scale-110 transition duration-500"
+          loading="lazy"
+          className="h-56 w-full object-cover"
           onError={(e) => {
             e.target.src =
               "https://images.pexels.com/photos/7235908/pexels-photo-7235908.jpeg?auto=compress&cs=tinysrgb&w=1200";

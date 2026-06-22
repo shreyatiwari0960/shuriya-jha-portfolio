@@ -1,8 +1,8 @@
-import g1 from "../assets/gallery/g1.png";
-import g2 from "../assets/gallery/g2.png";
-import g3 from "../assets/gallery/g3.png";
-import g4 from "../assets/gallery/g4.png";
-import g5 from "../assets/gallery/g5.png";
+import g1 from "../assets/gallery/g1.webp";
+import g2 from "../assets/gallery/g2.webp";
+import g3 from "../assets/gallery/g3.webp";
+import g4 from "../assets/gallery/g4.webp";
+import g5 from "../assets/gallery/g5.webp";
 
 function Gallery() {
   const images = [
@@ -51,6 +51,7 @@ function Gallery() {
               <img
                 src={item.img}
                 alt={item.title}
+                loading="lazy"
                 className="w-full h-72 object-cover hover:scale-110 transition duration-500"
               />
 
